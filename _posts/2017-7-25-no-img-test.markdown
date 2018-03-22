@@ -16,7 +16,8 @@ img:
 1. 自动生成yml头
 1. 自动生成yml头qqqqqqqqq
 2. markdown自动保存
-3. 头图可直接预览
+2. markdown自动保存wwwwww
+3. 头图可直接预览eeeeeee
 4. 随意添加或选择任意分类
 5. 随意添加Tags
 6. 更好的日期选择器

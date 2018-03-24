@@ -13,10 +13,10 @@ img:
 
 ## 功能
 
-1. 自动生成yml头qqqqqqqqq
-2. markdown自动保存wwwwww
-3. 头图可直接预览eeeeeeedd
-4. 随意添加或选择任意分类dddd
+1. 自动生成yml头
+2. markdown自动保存
+3. 头图可直接预览
+4. 随意添加或选择任意分类
 5. 随意添加Tags
 6. 更好的日期选择器
 7. 随时编辑包括手机

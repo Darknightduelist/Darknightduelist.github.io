@@ -159,6 +159,9 @@ img: http://or4d8nhvk.bkt.clouddn.com/18-4-1/89863742.jpg
 </html>
 ```
 ②css部分（在下面的链接中）
-[点击我看css样式代码](http://darknightduelist.xyz/project/two/main.css)
+
+
+代码链接：<a href="http://darknightduelist.xyz/project/two/main.html" target="_blank">http://darknightduelist.xyz/project/two/main.html</a>
+
 ### 3.在线演示
 [点我点我！](http://Darknightduelist.github.io/project/two/demo/eight/eight.html)

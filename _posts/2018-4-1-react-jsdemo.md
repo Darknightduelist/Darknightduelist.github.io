@@ -1,14 +1,14 @@
 ﻿---
 layout: post
 title: react
-date: 2018-03-26 20:57:49 +0800
+date: 2018-04-1 19:57:49 +0800
 categories: react
 tags: 
 img:http://or4d8nhvk.bkt.clouddn.com/18-4-1/89863742.jpg
 ---
 # react的demo
 Tags： react
-
+---
 ### 1.react状态的使用效果
 
 ![demo1](http://or4d8nhvk.bkt.clouddn.com/18-4-1/65066627.jpg)![demo2](http://or4d8nhvk.bkt.clouddn.com/18-4-1/53258689.jpg)

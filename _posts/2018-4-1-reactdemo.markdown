@@ -1,13 +1,17 @@
 ﻿---
 layout: post
 title: react
-date: 2018-04-1 19:57:49 +0800
-categories: react
+categories: Living
 tags: 
-img:http://or4d8nhvk.bkt.clouddn.com/18-4-1/89863742.jpg
+  - react
+  - summery
+img: http://or4d8nhvk.bkt.clouddn.com/18-4-1/89863742.jpg
 ---
-# react的demo
-Tags： react
+
+# react学习demo
+
+标签（空格分隔）： react
+
 ---
 ### 1.react状态的使用效果
 
@@ -16,7 +20,7 @@ Tags： react
 ![demo3](http://or4d8nhvk.bkt.clouddn.com/18-4-1/66684360.jpg)
 ### 2.react代码
 
-####①index.js部分
+①index.js部分
 ```javascript
 <!DOCTYPE html>
 <html>
@@ -154,7 +158,7 @@ Tags： react
   </body>
 </html>
 ```
-####②css部分（在下面的链接中）
+②css部分（在下面的链接中）
 [点击我看css样式代码](http://darknightduelist.xyz/project/two/main.css)
 ### 3.在线演示
 [点我点我！](http://Darknightduelist.github.io/project/two/demo/eight/eight.html)

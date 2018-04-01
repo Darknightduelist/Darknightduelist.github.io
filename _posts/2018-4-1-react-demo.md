@@ -4,7 +4,7 @@ title: react
 date: 2018-03-26 20:57:49 +0800
 categories: react
 tags: 
-img: 
+img:http://or4d8nhvk.bkt.clouddn.com/18-4-1/89863742.jpg
 ---
 # react的demo
 Tags： react
@@ -17,7 +17,7 @@ Tags： react
 ### 2.react代码
 
 ####①index.js部分
-```react.js
+```javascript
 <!DOCTYPE html>
 <html>
   <head>

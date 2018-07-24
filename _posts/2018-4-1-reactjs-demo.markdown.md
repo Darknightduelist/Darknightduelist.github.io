@@ -8,8 +8,8 @@ tags:
 img: http://or4d8nhvk.bkt.clouddn.com/18-4-1/89863742.jpg
 ---
 
+# react学习demo
 
-标签（空格分隔）： react
 
 ---
 ### 1.react状态的使用效果

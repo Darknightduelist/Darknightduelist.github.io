@@ -19,7 +19,7 @@ img: http://or4d8nhvk.bkt.clouddn.com/18-3-24/594171.jpg
 ### 2.代码部分
 
 index.html部分：
-```
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -44,7 +44,7 @@ index.html部分：
 ```
 
 style.css部分：
-```
+```html
 #wrapper {
     -webkit-perspective: 800;
     -webkit-perspective-origin: center;

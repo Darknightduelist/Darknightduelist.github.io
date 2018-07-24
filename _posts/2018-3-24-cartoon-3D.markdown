@@ -44,7 +44,7 @@ index.html部分：
 ```
 
 style.css部分：
-```html
+```css
 #wrapper {
     -webkit-perspective: 800;
     -webkit-perspective-origin: center;

@@ -28,7 +28,7 @@ Case 1:0.1667
 
 ### 2.代码部分
 
-```c
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 

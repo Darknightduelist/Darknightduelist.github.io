@@ -4,7 +4,7 @@ title: Jekyll Theme MDUI Editor
 date: 2017-5-30 0:0:0 +0800
 categories: Living
 tags: mdui jekyll theme editor 
-img: https://ooo.0o0.ooo/2017/05/30/592d41ed710a5.jpg
+img: http://or4d8nhvk.bkt.clouddn.com/18-7-24/47636246.jpg
 ---
 静态博客在线攥写文章不是梦。
 

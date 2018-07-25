@@ -1,0 +1,80 @@
+﻿---
+layout: post
+title:  "蛇形填数"
+date:   2018-07-25 15:57:49 +0800
+categories: C-program-language
+tags: C-program-language
+img: http://or4d8nhvk.bkt.clouddn.com/18-7-25/43622891.jpg
+author: DND
+---
+
+在写这篇博客之前我想要先抄一份歌词来表达我此刻的心情：
+像一棵海草海草
+
+海草海草
+
+随波飘摇(￣▽￣)~*
+
+海草海草海草海草
+
+浪花里舞蹈(￣▽￣)~*
+.........
+
+这道题是蛇形填数，看到这我脑子里的第一个印象竟然是这首歌，，，看来我中毒不浅(～￣▽￣)～ 
+
+* 
+{:toc}
+
+## 算法
+
+### 题目描述
+```
+描述 在n*n方陈里填入1,2,...,n*n,要求填成蛇形。例如n=4时方陈为：
+10 11 12 1
+9 16 13 2
+8 15 14 3
+7 6 5 4
+样例输入：
+3
+样例输出：
+7 8 1
+6 9 2
+5 4 3
+```
+
+### 代码部分
+
+```c++
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define MAX_SIZE 20
+int arr[MAX_SIZE][MAX_SIZE];
+int main()
+{
+
+    int i,n,flag=0,x,y;
+    scanf("%d",&n);
+
+    memset(arr,0,sizeof(arr));
+    flag=arr[x=0][y=n-1]=1;
+
+    while(flag<n*n){
+
+        while(x+1<n&&arr[x+1][y]==0)arr[++x][y]=++flag;
+        while(y-1>=0&&arr[x][y-1]==0)arr[x][--y]=++flag;
+        while(x-1>=0&&arr[x-1][y]==0)arr[--x][y]=++flag;
+        while(y+1<n&&arr[x][y+1]==0)arr[x][++y]=++flag;
+    }
+    int k,j;
+    for(k=0;k<n;k++){
+        for(j=0;j<n;j++){
+            printf("%3d",arr[k][j]);
+        }
+        printf("\n");
+    }
+}
+
+```
+### 代码感悟
+这道题对于我来说依旧是不简单，主要是找出四个一循环的规律，在写每条边线的循环时要考虑清楚坐标，话说这道题写了一下午，虽然我速度慢，但是我正确率低呀，嗯，就是这样了(｡◕ˇ∀ˇ◕)

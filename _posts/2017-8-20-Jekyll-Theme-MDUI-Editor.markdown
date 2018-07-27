@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll Theme MDUI Editor"
-date: 2017-5-30 0:0:0 +0800
+date: 2017-8-20 0:0:0 +0800
 categories: Living
 tags: mdui jekyll theme editor 
 img: http://or4d8nhvk.bkt.clouddn.com/18-7-24/47636246.jpg

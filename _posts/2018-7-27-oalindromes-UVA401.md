@@ -95,7 +95,7 @@ int main()
 附上我很喜欢的《游戏王》的三张图(・∀・)
 ![](http://or4d8nhvk.bkt.clouddn.com/18-7-27/32533145.jpg)
 ![](http://or4d8nhvk.bkt.clouddn.com/18-7-27/64024113.jpg)
-![](http://or4d8nhvk.bkt.clouddn.com/18-7-27/80024871.jpg)
+![](http://or4d8nhvk.bkt.clouddn.com/18-7-27/80024871.jpg)  
 最后再来我很喜欢的《道德经》的一个小章节(o゜▽゜)o☆，（看起来有点迂腐，但是说的很有道理，是我看过的最能让人静下心来的书(ﾟ▽ﾟ*) ）
 > 曲则全，枉则直，洼则盈，敝则新，少则得，多则惑。  
 是以圣人抱一为天下式。  

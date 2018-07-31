@@ -36,7 +36,7 @@ author: DND
 
 ### 代码部分
 
-```
+```c++
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 100010
@@ -83,5 +83,3 @@ int main()
 化而欲作，吾将镇之以无名之朴；  
 无名之朴，夫亦将不欲；  
 不欲以静，天下将自定。  
-将欲废之，必固兴之；    
-将欲夺之，必固与之；  

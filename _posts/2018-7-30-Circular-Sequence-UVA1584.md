@@ -117,7 +117,7 @@ int main()
 
 emmm.....快乐的时光(*/ω＼*)又到来了
 
-last but one ，ヾ(ｏ･ω･)ﾉ给大家分享一张4外星人桌面背景(oﾟ▽ﾟ)o  
+last but one ，ヾ(ｏ･ω･)ﾉ给大家分享一张画质4k的外星人桌面背景(oﾟ▽ﾟ)o  
 
 ![](http://or4d8nhvk.bkt.clouddn.com/18-7-31/55488939.jpg)
 

@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "约瑟环问题（CCF)"
-date:   2018-08-3 12:59:49 +0800
+date:   2018-08-03 12:59:49 +0800
 categories: C-program-language
 tags: C-program-language
 img: http://or4d8nhvk.bkt.clouddn.com/18-8-5/78392145.jpg

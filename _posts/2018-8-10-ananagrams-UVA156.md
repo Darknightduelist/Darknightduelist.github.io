@@ -17,7 +17,9 @@ author: DND
 
 ### 题目描述
 ```
-输入一些单词，找出所有满足如下条件的单词：该单词不能通过字母重排，得到输入文本中的另外一个单词。在判断是否满足条件时，字母不区分大小写，但在输出时应保留输入的大小写，按字典序进行排列（所有大写字母在小写字母的前面）。
+输入一些单词，找出所有满足如下条件的单词：该单词不能通过字母重排，得到输入文本中的另外一个单词。
+在判断是否满足条件时，字母不区分大小写，但在输出时应保留输入的大小写，
+按字典序进行排列（所有大写字母在小写字母的前面）。
 
 样例输入：
 ladder came tape soon leader acme RIDE lone Dreis peat
@@ -78,10 +80,7 @@ int main()
         }
         words.push_back(s);
         string r=repr(s);
-        /*algorithm头文件定义了一个count的函数，
-        其功能类似于find。
-        这个函数使用一对迭代器和一个值做参数，
-        返回这个值出现次数的统计结果。 */
+
         if(!cnt.count(r)){
             cnt[r]=0;
         }
@@ -98,7 +97,6 @@ int main()
         cout<<ans[i]<<"\n";
     }
 
-
     return 0;
 }
 
@@ -110,9 +108,6 @@ int main()
 count函数是algorithm头文件定的，其功能类似于find。这个函数使用一对迭代器和一个值做参数，
 返回这个值出现次数的统计结果。（ps：接下来我要试验一下视频可不可被Jekyll博客模板解析o(￣▽￣)ｄ ，以下视频和博客毫无关系，emmmmmm..........）
 
-<iframe width="560" height="315" src="http://www.aipai.com/c16/PzkoKSUhLS1qJWQsLw.html" frameborder="0" allowfullscreen></iframe>
-
-[flash=880,495]http://www.aipai.com/c16/PzkoKSUhLS1qJWQsLw/playerOut.swf[/flash]
 
 <embed width="880" height="495" src="http://www.aipai.com/c16/PzkoKSUhLS1qJWQsLw/playerOut.swf" quality="high" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"/>
 

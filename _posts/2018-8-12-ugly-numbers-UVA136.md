@@ -12,8 +12,6 @@ author: DND
 
 博客没有想象的那么难改，至少最基本的功能可以运行了，流量统计也可以加上了ミ(・・)ミ
 
-<div align=center><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/song?id=862100158&userid=1552877623"></iframe></div>
-
 * 
 {:toc}
 

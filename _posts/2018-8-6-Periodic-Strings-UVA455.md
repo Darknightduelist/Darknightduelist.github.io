@@ -179,7 +179,7 @@ int main()
 
 4k洛克希德侦察机壁纸(￣▽￣)~*
 
-![](http://or4d8nhvk.bkt.clouddn.com/18-8-7/36246399.jpg)
+[(图片链接)](http://or4d8nhvk.bkt.clouddn.com/18-8-7/36246399.jpg)
 
 日常《道德经》ヽ(°▽、°)ﾉヾ(๑╹◡╹)ﾉ"
 

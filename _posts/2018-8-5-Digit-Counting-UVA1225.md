@@ -79,7 +79,7 @@ int main()
 
 海贼王4k壁纸（里面没有(･□´･ｷ)＝＝＝⊃))←路飞）(￣▽￣)~*
 
-![](http://or4d8nhvk.bkt.clouddn.com/18-8-5/71248784.jpg)
+[(图片链接)](http://or4d8nhvk.bkt.clouddn.com/18-8-5/71248784.jpg)
 
 《道德经》ヽ(°▽、°)ﾉヾ(๑╹◡╹)ﾉ"
 

@@ -109,7 +109,7 @@ int main()
 
 4k冰河时代5壁纸(￣▽￣)~*ヽ(。_°)ノ
 
-![](http://or4d8nhvk.bkt.clouddn.com/18-8-8/24797342.jpg)
+[(图片链接)](http://or4d8nhvk.bkt.clouddn.com/18-8-8/24797342.jpg)
 
 《道德经》一小节(˘•ω•˘)
 

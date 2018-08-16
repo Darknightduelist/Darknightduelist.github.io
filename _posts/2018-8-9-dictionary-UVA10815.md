@@ -98,9 +98,9 @@ int main()
 ### 代码感悟
 stringstream是字符串流，找了好多版本的说法，觉得这个最靠谱（[链接](https://zhidao.baidu.com/question/142611736.html)）(<ゝω・)☆,还有知道isalpha函数是干什么用的就可以了
 
-4kLOL壁纸，（￣︶￣）↗
+4kLOL壁纸，（￣︶￣）↗   
 
-![](http://or4d8nhvk.bkt.clouddn.com/18-8-11/49072338.jpg)
+[(图片链接)](http://or4d8nhvk.bkt.clouddn.com/18-8-11/49072338.jpg)
 
 日常《道德经》ヾ(ｏ･ω･)ﾉ
 

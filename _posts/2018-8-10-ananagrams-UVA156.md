@@ -111,9 +111,9 @@ count函数是algorithm头文件定的，其功能类似于find。这个函数�
 
 <embed width="880" height="495" src="http://www.aipai.com/c16/PzkoKSUhLS1qJWQsLw/playerOut.swf" quality="high" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"/>
 
-5k壁纸（：·）
+5k壁纸（：·）  
 
-![](http://or4d8nhvk.bkt.clouddn.com/18-8-12/59122841.jpg)
+[(图片链接)](http://or4d8nhvk.bkt.clouddn.com/18-8-12/59122841.jpg)
 
 日常《道德经》(∩_∩)
 

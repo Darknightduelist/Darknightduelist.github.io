@@ -17,14 +17,14 @@ R语言还有一个神奇的东西，就是它带有机器学习的包，这就�
 
 ## R语言的安装、数据类型、函数
 
-###如何安装RStudio
+### 如何安装RStudio
 
 R的安装包网址：cran.r-project.org
 RStudio的网址：www.rstudio.com
 安装的时候一定要注意这两个安装在同一个目录下，否则的话RStudio会出现难以名状的错误，这都是血的教训(T＿T)
 
 
-###获取帮助
+### 获取帮助
 
 ?函数名（R的帮助文档）
 --例如：?ml   #线性回归函数的各种东西
@@ -38,7 +38,7 @@ RStudio的网址：www.rstudio.com
 --查看数据集中的详细内容，例如：?InsectSprays
 
 
-###基本函数
+### 基本函数
 ```R
 install.packages("carat")  #安装一个机器学习的包
 
@@ -55,14 +55,14 @@ class(x)#查看x的数据类型
 ```
 
 
-###对象属性(attribute)
+### 对象属性(attribute)
 ```R
 名称（name）
 维度（dimensions：matrix，array）
 类型（class）
 长度（length）
 ```
-###对象的5种基本类型
+### 对象的5种基本类型
 ```R
 --字符（character）
 --数值（numeric：real numbers）
@@ -71,7 +71,7 @@ class(x)#查看x的数据类型
 --逻辑（logical：True/False）
 
 ```
-####向量 Vector(3种创建方式)
+#### 向量 Vector(3种创建方式)
 ```R
 ①  x<-vector("character",length=10)
 ②  x1<-1:4
@@ -88,7 +88,7 @@ names(x1)<-c("a","b","c","d") #为每个元素赋予一个名字
 
 ```
 
-####矩阵 Matrix(2种创建方式，维度只能等于2)
+#### 矩阵 Matrix(2种创建方式，维度只能等于2)
 ```R
 ①  x<-matrix(nrow=3,ncol=2)
 x<-matrix(1:6,nrow=3,ncol=2) #为矩阵赋值1`6,按列赋值
@@ -103,12 +103,12 @@ rbind(y1,y2)#将矩阵进行拼接(按行拼接)
 cbind(y1,y2)#将矩阵进行拼接(按列拼接)
 
 ```
-####数组 Array(维度可以大于2)
+#### 数组 Array(维度可以大于2)
 ```R
 x<-array(1:24,dim=c(2,3,4)) #三维数组
 ```
 
-####列表 List
+#### 列表 List
 ```R
 l<-list("a",2,10L,3+4i,TRUE) #为列表赋值
 l2<-list(a=1,b=2,c=3) #为列表的元素赋予一个名字
@@ -118,7 +118,7 @@ x<-matrix(1:6,nrow=3,ncol=2)
 dimnames(x)<-list(c("a","b"),c("c","d","e"))
 #为二维数组的每行和每列赋予一个名字
 ```
-####因子 Factor(分类数据/有序vs.无序)
+#### 因子 Factor(分类数据/有序vs.无序)
 ```R
 x<-factor(c("female","female","female","male","female"))
 
@@ -129,7 +129,7 @@ unclass(x) #去掉因子的属性
 
 ```
 
-####缺失值(missing value)
+#### 缺失值(missing value)
 ```R
 --NA/NAN:NaN属于NA，NA不属于NaN，NAN一般表示数字类型的缺失值，NA一般表示的类型更广
 
@@ -139,7 +139,7 @@ is.nan()
 x <-c(1,2,3,NA,NA)
 ```
 
-####数据框(data frame)
+#### 数据框(data frame)
 ```R
 --存储表格数据（tabular data）
 --视为各元素长度相同的列表
@@ -156,7 +156,7 @@ df<-data.frame(id=c(1,2,3,4),name=c("a","b","c","d")）
 data.matrix(df) #将矩阵转化为数据框
 ```
 
-####日期(DATE)
+#### 日期(DATE)
 ```R
 #date 距离1970.1.1的天数
 x<-date()

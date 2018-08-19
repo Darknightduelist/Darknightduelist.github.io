@@ -19,8 +19,8 @@ R语言还有一个神奇的东西，就是它带有机器学习的包，这就�
 
 ### 如何安装RStudio
 
-R的安装包网址：cran.r-project.org
-RStudio的网址：www.rstudio.com
+R的安装包网址：cran.r-project.org  
+RStudio的网址：www.rstudio.com  
 安装的时候一定要注意这两个安装在同一个目录下，否则的话RStudio会出现难以名状的错误，这都是血的教训(T＿T)
 
 

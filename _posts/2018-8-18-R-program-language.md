@@ -128,6 +128,7 @@ table(x) #查看x中各个因子的个数
 unclass(x) #去掉因子的属性
 
 ```
+- 对于因子详细的解释：[链接](https://blog.csdn.net/Alina666666/article/details/51049974)
 
 #### 缺失值(missing value)
 ```R

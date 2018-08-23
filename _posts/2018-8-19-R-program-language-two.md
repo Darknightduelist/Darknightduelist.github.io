@@ -14,7 +14,7 @@ RRRRRRRRRRRRRRRRRRRRRRRR
 {:toc}
 
 ## R语言的操纵数据、构建子集
-###基本方法
+### 基本方法
 ```r
 x<-1:10
 x[1]

@@ -27,7 +27,7 @@ close(connection) #关闭链接
 
 ### r语言连接数据库及基本操作
 
-```
+```r
 #连接mysql数据库
 install.packages("RMySQL") #如果没有这个包就先下载
 library("RMySQL") #加载这个包

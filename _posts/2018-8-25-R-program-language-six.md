@@ -21,25 +21,25 @@ library(graphics)
 #plot(绘图)/hist(柱状图)/boxplot(箱图)/points(点)/lines(线)/text(添加文字)/title(命名)/axis(添加坐标轴)
 ?airquality
 ```
-```
+```r
 hist(airquality$Wind,xlab = "Wind") #可以呈现出风速的柱状图
 ```
 ![](http://or4d8nhvk.bkt.clouddn.com/18-8-25/15750170.jpg)
-```
+```r
 boxplot(airquality$Wind,xlab="Wind",ylab="Speed(mph)") #可以呈现出风速的箱图
 ```
 ![](http://or4d8nhvk.bkt.clouddn.com/18-8-25/61869175.jpg)
-```
+```r
 boxplot(Wind~Month,airquality,xlab="Month",ylab="Speed(mph)") #风速随月份变化的箱图
 ```
 ![](http://or4d8nhvk.bkt.clouddn.com/18-8-25/59093083.jpg)
-```
+```r
 plot(airquality$Wind,airquality$Temp) #风速与温度的关系
 
 with(airquality,plot(Wind,Temp)) #上面一种写法的简化
 ```
 ![](http://or4d8nhvk.bkt.clouddn.com/18-8-25/56209339.jpg)
-```
+```r
 par(mfrow=c(1,2)) #将一个平面左右分为两半
 
 title(main = "Wind and Temp in NYC") #添加标题
@@ -49,7 +49,7 @@ with(airquality,plot(Wind,Temp,main = "Wind and Temp in NYC")) #添加标题的�
 with(airquality,plot(Wind,Temp,main = "Wind and Temp in NYC",type="n"))
 ```
 ![](http://or4d8nhvk.bkt.clouddn.com/18-8-25/12796701.jpg)
-```
+```r
 with(subset(airquality,Month==9),points(Wind,Temp,col="red"))
 
 with(subset(airquality,Month==5),points(Wind,Temp,col="green"))
@@ -66,7 +66,7 @@ abline(fit,lwd=2)
 legend("topright",pch=1,col = c("red","green","blue"),legend = c("Sep","May","Other"))
 ```
 ![](http://or4d8nhvk.bkt.clouddn.com/18-8-25/96766257.jpg)
-```
+
 
 
 #基本绘图系统之全局参数

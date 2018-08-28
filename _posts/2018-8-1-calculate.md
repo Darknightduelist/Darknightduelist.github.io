@@ -4,7 +4,7 @@ title:  "计算组合数"
 date:   2018-08-1 22:59:49 +0800
 categories: C-program-language
 tags: C-program-language
-img: http://or4d8nhvk.bkt.clouddn.com/18-8-3/68009754.jpg
+img: http://or4d8nhvk.bkt.clouddn.com/18-8-28/21351393.jpg
 author: DND
 ---
 

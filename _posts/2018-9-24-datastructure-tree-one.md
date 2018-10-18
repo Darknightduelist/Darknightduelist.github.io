@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "数据结构"
+title:  "树的同构"
 date:   2018-09-24 12:59:49 +0800
 categories: Datastructure
 tags: Datastructure

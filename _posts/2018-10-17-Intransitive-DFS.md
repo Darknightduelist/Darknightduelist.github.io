@@ -26,10 +26,12 @@ DFS的非递归实现，有助于更好地了解DFS的递归，以及递归过�
 #include <cstdio>
 #include <cstring>
 #include <stack>
+#include <queue>
 #define MAX_SIZE 12
 using namespace std;
 
 stack<int> sk;
+queue<int> que;
 int n=MAX_SIZE;
 int Graph[MAX_SIZE][MAX_SIZE]={
     {-1,1,1,0,0,0,0,0,0,0,0,0},
@@ -56,6 +58,26 @@ void DFS(int x){
     for(int i=0;i<n;i++){
         if(!Vis[i]&&Graph[x][i]==1){
             DFS(i);
+        }
+    }
+}
+
+void BFS(int x){
+    if(Vis[x]){
+        return;
+    }
+    Vis[x]=1;
+    cout<<x<<" ";
+    que.push(x);
+    while(que.size()>0){
+        int y=que.front();
+        que.pop();
+        for(int i=0;i<n;i++){
+          if(!Vis[i]&&Graph[y][i]){
+            Vis[i]=1;
+            que.push(i);
+            cout<<i<<" ";
+          }
         }
     }
 }
@@ -93,6 +115,10 @@ int main()
     memset(Vis,0,sizeof(Vis));
     cout<<"Intransitive_DFS: ";
     Intransitive_DFS(1);
+    cout<<endl;
+    memset(Vis,0,sizeof(Vis));
+    cout<<"BFS: ";
+    BFS(1);
     return 0;
 }
 
